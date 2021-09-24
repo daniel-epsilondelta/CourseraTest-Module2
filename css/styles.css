@@ -1,0 +1,98 @@
+* { 
+	box-sizing: border-box;
+ }
+
+ body{
+ 	font-family: sans-serif;
+ }
+
+
+#hd1{
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.s1, .s2, .s3{
+ 	width: 33.33%;
+ 	float: left;
+ }
+
+.d1{
+	position: relative;
+	margin: 10px;
+	padding:  10px;
+	border: solid 1px black;
+	background-color: lightgrey;
+}
+
+.pt1{
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 5px;
+	margin: 0px;
+	width: 33.33%;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	border:  solid 1px black;
+}
+
+.ptxt{
+	margin: 10px;
+	padding: 10px;
+}
+
+#it1{
+	background-color: pink;
+}
+
+#it2{
+	background-color: red;
+	color: white;
+}
+
+#it3{
+	background-color: burlywood;
+	color: black;
+}
+
+/************ Laptop size browsers ************/
+@media(min-width: 992px){
+		#hd1{
+				margin: 6%;
+		}
+
+		.s1, .s2, .s3 {
+				width: 33.3%;
+				float: left;
+		}
+}
+
+/************ Tablet size browsers ************/
+@media(min-width: 768px) and (max-width: 991px) {
+		#hd1{
+				margin: 4%;
+		}
+
+		.s1, .s2{
+				width: 50%;
+				float: left;
+		}
+
+		.s3 {
+			width: 100%;
+		}
+}
+
+/************ Mobile size browsers ************/
+@media(max-width: 767px) {
+		#hd1{
+				margin: 2%;
+		}
+
+		.s1, .s2, .s3 {
+				width: 100%;
+		}
+}
