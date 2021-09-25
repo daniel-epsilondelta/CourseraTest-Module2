@@ -1,2 +1,2 @@
 # CourseraTest-Module2
- To bee previewd for grade
+ To be reviewed for grade
